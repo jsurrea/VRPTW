@@ -1,0 +1,120 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Tue Apr 18 21:21:01 2023
+
+Set parameter LogFile to value "LogFiles/AP-56.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0x834e1216
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e-02, 6e+01]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective 7.10543e-15 (0.00s)
+Loaded MIP start from previous solve with objective 7.10543e-15
+
+Presolve removed 574 rows and 464 columns
+Presolve time: 0.11s
+Presolved: 233 rows, 239 columns, 1773 nonzeros
+Variable types: 19 continuous, 220 integer (219 binary)
+
+Root relaxation: objective -1.982297e+02, 139 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -198.22971    0   18    0.00000 -198.22971      -     -    0s
+H    0     0                     -12.2784483 -198.22971  1514%     -    0s
+H    0     0                     -22.3955820 -198.22971   785%     -    0s
+     0     0  -80.76842    0   19  -22.39558  -80.76842   261%     -    0s
+     0     0  -80.05737    0   18  -22.39558  -80.05737   257%     -    0s
+H    0     0                     -28.3837820  -80.05737   182%     -    0s
+*    0     0               0     -72.9609064  -72.96091  0.00%     -    0s
+
+Cutting planes:
+  Learned: 7
+  Gomory: 6
+  Cover: 7
+  Implied bound: 2
+  Clique: 3
+  MIR: 10
+  StrongCG: 1
+  Flow cover: 9
+  GUB cover: 3
+  RLT: 4
+  Relax-and-lift: 4
+
+Explored 1 nodes (223 simplex iterations) in 0.21 seconds (0.05 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: -72.9609 -28.3838 -22.3956 ... 7.10543e-15
+No other solutions better than -72.9609
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -7.296090642391e+01, best bound -7.296090642391e+01, gap 0.0000%
+
+Gurobi 10.0.1 (mac64[x86]) logging started Wed Apr 19 10:15:24 2023
+
+Set parameter LogFile to value "LogFiles/AP-56.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0x834e1216
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [2e-02, 6e+01]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective 7.10543e-15 (0.00s)
+Loaded MIP start from previous solve with objective 7.10543e-15
+
+Presolve removed 574 rows and 464 columns
+Presolve time: 0.10s
+Presolved: 233 rows, 239 columns, 1773 nonzeros
+Variable types: 19 continuous, 220 integer (219 binary)
+
+Root relaxation: objective -1.982297e+02, 139 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -198.22971    0   18    0.00000 -198.22971      -     -    0s
+H    0     0                     -12.2784483 -198.22971  1514%     -    0s
+H    0     0                     -22.3955820 -198.22971   785%     -    0s
+     0     0  -80.76842    0   19  -22.39558  -80.76842   261%     -    0s
+     0     0  -80.05737    0   18  -22.39558  -80.05737   257%     -    0s
+H    0     0                     -28.3837820  -80.05737   182%     -    0s
+*    0     0               0     -72.9609064  -72.96091  0.00%     -    0s
+
+Cutting planes:
+  Learned: 7
+  Gomory: 6
+  Cover: 7
+  Implied bound: 2
+  Clique: 3
+  MIR: 10
+  StrongCG: 1
+  Flow cover: 9
+  GUB cover: 3
+  RLT: 4
+  Relax-and-lift: 4
+
+Explored 1 nodes (223 simplex iterations) in 0.18 seconds (0.05 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: -72.9609 -28.3838 -22.3956 ... 7.10543e-15
+No other solutions better than -72.9609
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -7.296090642391e+01, best bound -7.296090642391e+01, gap 0.0000%

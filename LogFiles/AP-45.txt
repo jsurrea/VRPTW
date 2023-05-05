@@ -1,0 +1,96 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Tue Apr 18 21:20:57 2023
+
+Set parameter LogFile to value "LogFiles/AP-45.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0x8c6d4a31
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [3e-01, 8e+01]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective 7.10543e-15 (0.00s)
+Loaded MIP start from previous solve with objective 7.10543e-15
+
+Presolve removed 587 rows and 488 columns
+Presolve time: 0.08s
+Presolved: 220 rows, 215 columns, 1718 nonzeros
+Found heuristic solution: objective -66.7920645
+Variable types: 19 continuous, 196 integer (196 binary)
+
+Root relaxation: objective -1.670580e+02, 135 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -167.05797    0   37  -66.79206 -167.05797   150%     -    0s
+H    0     0                     -71.4307830 -167.05797   134%     -    0s
+     0     0 -101.90256    0   16  -71.43078 -101.90256  42.7%     -    0s
+H    0     0                     -85.6446376 -101.90256  19.0%     -    0s
+     0     0 -101.68114    0   16  -85.64464 -101.68114  18.7%     -    0s
+     0     0 -100.12150    0   24  -85.64464 -100.12150  16.9%     -    0s
+*    0     0               0     -89.9536369  -89.95364  0.00%     -    0s
+
+Explored 1 nodes (213 simplex iterations) in 0.15 seconds (0.05 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: -89.9536 -85.6446 -71.4308 ... 7.10543e-15
+No other solutions better than -89.9536
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -8.995363690141e+01, best bound -8.995363690141e+01, gap 0.0000%
+
+Gurobi 10.0.1 (mac64[x86]) logging started Wed Apr 19 10:15:20 2023
+
+Set parameter LogFile to value "LogFiles/AP-45.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0x8c6d4a31
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [3e-01, 8e+01]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective 7.10543e-15 (0.00s)
+Loaded MIP start from previous solve with objective 7.10543e-15
+
+Presolve removed 587 rows and 488 columns
+Presolve time: 0.06s
+Presolved: 220 rows, 215 columns, 1718 nonzeros
+Found heuristic solution: objective -66.7920645
+Variable types: 19 continuous, 196 integer (196 binary)
+
+Root relaxation: objective -1.670580e+02, 135 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -167.05797    0   37  -66.79206 -167.05797   150%     -    0s
+H    0     0                     -71.4307830 -167.05797   134%     -    0s
+     0     0 -101.90256    0   16  -71.43078 -101.90256  42.7%     -    0s
+H    0     0                     -85.6446376 -101.90256  19.0%     -    0s
+     0     0 -101.68114    0   16  -85.64464 -101.68114  18.7%     -    0s
+     0     0 -100.12150    0   24  -85.64464 -100.12150  16.9%     -    0s
+*    0     0               0     -89.9536369  -89.95364  0.00%     -    0s
+
+Explored 1 nodes (213 simplex iterations) in 0.11 seconds (0.05 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 5: -89.9536 -85.6446 -71.4308 ... 7.10543e-15
+No other solutions better than -89.9536
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -8.995363690141e+01, best bound -8.995363690141e+01, gap 0.0000%

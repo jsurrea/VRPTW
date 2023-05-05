@@ -1,0 +1,110 @@
+
+Gurobi 10.0.1 (mac64[x86]) logging started Tue Apr 18 21:20:52 2023
+
+Set parameter LogFile to value "LogFiles/AP-29.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0xe1046287
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [7e-02, 2e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective -204.769 (0.00s)
+Loaded MIP start from previous solve with objective -204.769
+
+Presolve removed 568 rows and 464 columns
+Presolve time: 0.09s
+Presolved: 239 rows, 239 columns, 1816 nonzeros
+Variable types: 20 continuous, 219 integer (219 binary)
+
+Root relaxation: objective -5.368794e+02, 207 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -536.87936    0   54 -204.76861 -536.87936   162%     -    0s
+     0     0 -234.78714    0   35 -204.76861 -234.78714  14.7%     -    0s
+     0     0 -233.89326    0   44 -204.76861 -233.89326  14.2%     -    0s
+     0     0 -233.80293    0   34 -204.76861 -233.80293  14.2%     -    0s
+     0     0 -213.67549    0   25 -204.76861 -213.67549  4.35%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Cover: 3
+  Implied bound: 1
+  Clique: 5
+  MIR: 5
+  Flow cover: 2
+  RLT: 8
+  Relax-and-lift: 5
+
+Explored 1 nodes (324 simplex iterations) in 0.19 seconds (0.06 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -204.769 
+No other solutions better than -204.769
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.047686093326e+02, best bound -2.047686093326e+02, gap 0.0000%
+
+Gurobi 10.0.1 (mac64[x86]) logging started Wed Apr 19 10:15:12 2023
+
+Set parameter LogFile to value "LogFiles/AP-29.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[x86])
+
+CPU model: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz
+Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 807 rows, 703 columns and 5358 nonzeros
+Model fingerprint: 0xe1046287
+Variable types: 27 continuous, 676 integer (676 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+03]
+  Objective range  [7e-02, 2e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+MIP start from previous solve produced solution with objective -204.769 (0.00s)
+Loaded MIP start from previous solve with objective -204.769
+
+Presolve removed 568 rows and 464 columns
+Presolve time: 0.14s
+Presolved: 239 rows, 239 columns, 1816 nonzeros
+Variable types: 20 continuous, 219 integer (219 binary)
+
+Root relaxation: objective -5.368794e+02, 207 iterations, 0.02 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -536.87936    0   54 -204.76861 -536.87936   162%     -    0s
+     0     0 -234.78714    0   35 -204.76861 -234.78714  14.7%     -    0s
+     0     0 -233.89326    0   44 -204.76861 -233.89326  14.2%     -    0s
+     0     0 -233.80293    0   34 -204.76861 -233.80293  14.2%     -    0s
+     0     0 -213.67549    0   25 -204.76861 -213.67549  4.35%     -    0s
+
+Cutting planes:
+  Learned: 3
+  Cover: 3
+  Implied bound: 1
+  Clique: 5
+  MIR: 5
+  Flow cover: 2
+  RLT: 8
+  Relax-and-lift: 5
+
+Explored 1 nodes (324 simplex iterations) in 0.24 seconds (0.06 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: -204.769 
+No other solutions better than -204.769
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective -2.047686093326e+02, best bound -2.047686093326e+02, gap 0.0000%

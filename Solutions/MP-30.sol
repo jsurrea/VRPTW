@@ -1,0 +1,32 @@
+# Solution for model Master Problem
+# Objective value = 834.289419601618
+theta[1] 0
+theta[2] 1
+theta[3] 1
+theta[4] 0
+theta[5] 0
+theta[6] 1
+theta[7] 0
+theta[8] 1
+theta[9] 1
+theta[10] 0
+theta[11] 0
+theta[12] 1
+theta[13] 1
+theta[14] 0
+theta[15] 0
+theta[16] 1
+theta[17] 1
+theta[18] 1
+theta[19] 0
+theta[20] 0
+theta[21] 1
+theta[22] 0
+theta[23] 1
+theta[24] 1
+theta[25] 0
+theta[26] 0
+theta[27] 1
+theta[28] 0
+theta[29] 1
+theta[30] 0
